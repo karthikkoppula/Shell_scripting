@@ -1,0 +1,11 @@
+#!bin/bash
+#getting the list of files from the dircetory
+
+files="/Users/karkoppu/myscripts
+
+for File in $(cat files)
+do
+echo "name is $File"
+done
+
+
